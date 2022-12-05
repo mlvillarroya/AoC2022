@@ -8,8 +8,6 @@ def prepare_matrix(number):
     for column in range(0,number):
         stacks.append([])
     return stacks
-def how_many_movements(row):
-    return 1
 
 alist = [line for line in open('Day5/input.txt')]
 # Stacks: area before the blank row
