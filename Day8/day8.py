@@ -1,10 +1,7 @@
 def row(i,matrix):
     return matrix[i]
-def column(j,matrix):
-    column = []
-    for row in matrix:
-        column.append(row[j])
-    return column
+def column(j,matrix):    
+    return [row[j] for row in matrix]
 
 def is_visible(matrix,i,j):
     return i == 0 or \
